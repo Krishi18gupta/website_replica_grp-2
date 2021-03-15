@@ -1,0 +1,107 @@
+body {overflow-x: hidden;}
+
+.tm-nav li {
+    list-style: none;
+    float: left;
+  }
+  .tm-nav li a {
+    color: rgb(197, 144, 144);
+    display: inline-block;
+    padding: 15px 15px 20px 30px;
+    font-size: 28px;
+    margin-left: 50px;
+  }
+  .tm-site-name {
+    color: #c79c60;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0 10px;  
+    font-style: italic;
+    
+  }
+  .tm-site-logo,
+ .tm-site-name {
+  vertical-align: 20px;
+  padding-right: 15px;
+}
+.tm-nav {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 60px;
+}
+.tm-top-header {
+    display: inline-block;
+    background-color: black;
+    padding-left: 40px;
+    width: 100%;
+}
+.tm-site-logo {
+    padding-left: 300px;
+}
+.tm-nav li a.active {
+    background: url(./logo.png) no-repeat, url(./nav-underline.png) no-repeat;
+    background-size: 20px, 74px 17px;
+    background-position: 0% 30%, center bottom;
+  }
+  .ul.li.a {
+      list-style: none;
+      
+  }
+  .mobile-menu-icon {
+      display: none;
+  }
+  @media (max-width: 1430px) {
+    .tm-site-logo {
+        padding-left: 200px;
+    }
+  }
+  @media (max-width: 1340px) {
+      .tm-nav {
+          margin-left: 40px;
+      }
+  }
+  @media (max-width: 1430px) {
+    .tm-site-logo {
+        padding-left: 150px;
+    }
+    @media (max-width: 1250px) {
+        .tm-site-logo {
+            padding-left: 90px;
+        }
+        .tm-nav li a {
+            padding: 10px 10px 10px 10px;
+        }
+        @media (max-width: 1100px) {
+            .tm-site-logo {
+                padding-left: 20px;
+            }
+            .tm-nav {
+                margin-left: 0px;
+            }
+        }
+        @media (max-width: 1020px) {
+            .tm-site-logo {
+                padding-left: 10px;
+            }
+            .tm-site-name {
+                font-size: 25px;}
+                .tm-nav li a {
+                    font-size: 23px;}
+                }
+                @media screen and (max-width: 915px) {
+                    .tm-nav { display: none; }
+                    .tm-nav li a { padding-left: 35px; }
+                    .tm-logo-container { margin-left: 15px; }  
+                    .mobile-menu-icon {
+                      display: block;
+                      cursor: pointer;
+                      color: #c79c60;
+                      font-size: 50px;
+                      position: fixed;
+                      top: 32px;
+                      right: 40px;
+                      background-color: rgba(180, 55, 55, 0.6);
+                      padding: 10px 15px;
+                      z-index: 10;
+                    }
+                    
