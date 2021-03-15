@@ -1,4 +1,7 @@
-body {overflow-x: hidden;}
+body {
+overflow-x: hidden;
+margin: 0px;
+}
 
 .tm-nav li {
     list-style: none;
