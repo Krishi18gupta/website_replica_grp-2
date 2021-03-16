@@ -136,6 +136,7 @@ margin: 0px;
   {
       text-align: justify;
       font-size: 18px;
+      padding-right: 20px;
   }
   .container-best-coffee
   {
@@ -232,6 +233,10 @@ margin: 0px;
   }
   @media (max-width: 767px)
   {
+      .container-best-coffee
+      {
+          flex-direction: column;
+      }
       .tm-welcome-header
       {
           font-size: 40px;
