@@ -79,9 +79,9 @@ margin: 0px;
       font-size: 56px;
       position:absolute;
       bottom: 280px;
-      left: 36%;
+      left: 50%;
+      margin-left: -213.5px;
       text-align: center;
-      margin: 0px;
       padding: 0px;
   }
   .tm-welcome-header-2
