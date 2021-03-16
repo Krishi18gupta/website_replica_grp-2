@@ -58,7 +58,7 @@ margin: 0px;
       background-color: #282726;
       text-align: center;
       overflow: visible;
-      height: 950px;
+      max-height: 950px;
   }
   .lightsandwelcome
   {
@@ -78,7 +78,7 @@ margin: 0px;
   {
       font-size: 56px;
       position:absolute;
-      bottom: 280px;
+      top: 100px;
       left: 50%;
       margin-left: -213.5px;
       text-align: center;
@@ -92,6 +92,10 @@ margin: 0px;
       font-size: 62px;
       font-family: 'Times New Roman' , serif;
       font-weight: unset;
+  }
+  .tm-welcome-description
+  {
+      padding: 0px 20px;
   }
   .welcome-content
   {
@@ -147,6 +151,10 @@ margin: 0px;
       margin-left: 100px;
       height: 175px;
   }
+  .table-set
+  {
+      max-width:100%;
+  }
   .img-circle
   {
       border-radius: 50%;
@@ -195,6 +203,72 @@ margin: 0px;
   .tm-handwriting-font
   {
       font-family: 'Damion', cursive;
+  }
+  @media (max-width: 991px)
+  {
+      .welcome-lights
+      {
+          width: 240px;
+      }
+      .tm-welcome-section
+      {
+          height: 850px;
+      }
+  }
+  @media (max-width: 850px)
+  {
+     .to-hide
+     {
+         display: none;
+     }
+     .tm-welcome-section
+      {
+          height: 800px;
+      }
+      .tm-main-section
+      {
+          padding-top: 150px;
+      }
+  }
+  @media (max-width: 767px)
+  {
+      .tm-welcome-header
+      {
+          font-size: 40px;
+          margin-left: -171.7px;
+      }
+      .tm-welcome-header-2
+      {
+          font-size:50px;
+      }
+      .welcome-dash
+      {
+          width: 50px;
+      }
+      .tm-welcome-section
+      {
+          height: 750px;
+      }
+
+  }
+  @media (max-width: 680px)
+  {
+      .tm-main-section
+      {
+          padding-top: 100px;
+      }
+  }
+  @media (max-width: 550px)
+  {
+    .tm-welcome-section
+    {
+        height: 700px;
+    }
+    .tm-main-section
+      {
+          padding-top: 70px;
+      }
+
   }
 
   @media (max-width: 1430px) {
