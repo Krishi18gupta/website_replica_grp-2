@@ -53,6 +53,13 @@ margin: 0px;
   .mobile-menu-icon {
       display: none;
   }
+  .tm-welcome-section
+  {
+      background-color: #282726;
+      text-align: center;
+      overflow: visible;
+      height: 950px;
+  }
   .lightsandwelcome
   {
       background-color: #282726;
@@ -108,6 +115,10 @@ margin: 0px;
       text-transform: uppercase;
       background-image: url(tm-brown-button.png) ;
      
+  }
+  .light-gray-bg
+  {
+      background-color: #e4e4e4;
   }
   .white-text
   {
