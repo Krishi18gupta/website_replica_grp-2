@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hwc-mm
+{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background-color: #e4e4e4;
+}
+h1
+{
+    font-weight: unset;
+}
+.message
+{
+    margin-right: 20px;
+    flex-basis: 450px;
+}
+.map
+{
+    margin-left: 20px;
+    flex-basis: 445.4px;
+    background-color: yellow;
+}
+input[type="text"], input[type="email"], textarea
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border: 1px solid #c79c60;
+}
+textarea
+{
+    resize:none;
+    margin-bottom: 15px;
+}
+input[type="submit"]
+{
+    background: url(tm-brown-button.png);
+    width: 195px;
+    height: 46px;
+    color: #c79c60;
+    border: none;
+}
