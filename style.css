@@ -426,6 +426,11 @@ margin: 0px;
       overflow: visible;
       height: 950px;
   }
+  .tm-welcome-description
+  {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
   .lightsandwelcome
   {
       background-color: #282726;
@@ -444,7 +449,7 @@ margin: 0px;
   {
       font-size: 56px;
       position:absolute;
-      bottom: 280px;
+      top: 180px;
       left: 50%;
       margin-left: -213.5px;
       text-align: center;
@@ -499,6 +504,7 @@ margin: 0px;
   {
       text-align: justify;
       font-size: 18px;
+      padding-right: 20px;
   }
   .container-best-coffee
   {
@@ -513,6 +519,7 @@ margin: 0px;
       margin-top: 50px;
       margin-left: 100px;
       height: 175px;
+      max-width: 170px;
   }
   .img-circle
   {
@@ -532,7 +539,8 @@ margin: 0px;
   .ch-heading
   {
       font-weight: unset;
-     margin: 0px;
+      margin: 0px;
+      padding: 0px;
   }
   .table-set
   {
@@ -569,6 +577,17 @@ margin: 0px;
   .tm-welcome-header{
     margin-left:-213.5px;
 }
+@media (max-width: 767px)
+{
+    .container-best-coffee
+    {
+        flex-direction: column;
+    }
+    .fright
+    {
+        flex-basis: 170px;
+    }
+}
 @media (max-width: 848px)
  {
 .tohide{
@@ -586,6 +605,29 @@ margin: 0px;
           width: 240px;
           margin-left: 15px;
           margin-right: 15px;
+      }
+  }
+  @media (max-width: 1200)
+  {
+      .ch-heading
+      {
+          line-height: 0.5;
+      }
+  }
+  @media (max-width: 1430px)
+  {
+      .tm-section-header
+      {
+          font-size: 30px;
+      }
+      .ch-heading
+      {
+          font-size: 30px;
+          font-style: italic;
+      }
+      .tm-welcome-section
+      {
+          height: 965px;
       }
   }
   
