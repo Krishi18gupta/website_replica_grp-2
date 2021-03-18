@@ -577,43 +577,9 @@ margin: 0px;
   .tm-welcome-header{
     margin-left:-213.5px;
 }
-@media (max-width: 767px)
-{
-    .container-best-coffee
-    {
-        flex-direction: column;
-    }
-    .fright
-    {
-        flex-basis: 170px;
-    }
-}
-@media (max-width: 848px)
- {
-.tohide{
-   display:none;
-         }
-       .tm-welcome-header
-        {
-           font-size: 40px;
-            margin-left:-171.6px
-        }
-}
-  @media (max-width: 991px)
-  {
-      .welcome-lights{
-          width: 240px;
-          margin-left: 15px;
-          margin-right: 15px;
-      }
-  }
-  @media (max-width: 1200)
-  {
-      .ch-heading
-      {
-          line-height: 0.5;
-      }
-  }
+
+ 
+ 
   @media (max-width: 1430px)
   {
       .tm-section-header
@@ -630,7 +596,93 @@ margin: 0px;
           height: 965px;
       }
   }
-  
+  @media (max-width: 1200)
+  {
+      .ch-heading
+      {
+          line-height: 0.5;
+      }
+  }
+  @media (max-width: 991px)
+  {
+      .tm-welcome-section
+      {
+          height: 900px;
+      }
+      .welcome-lights{
+          width: 240px;
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+      .container-best-coffee
+      {
+          margin-top: -100px;
+      }
+  }
+  @media (max-width: 848px)
+ {
+        .tohide
+            {
+            display:none;
+            }
+       .tm-welcome-header
+        {
+           font-size: 40px;
+            margin-left:-171.6px
+        }
+        .tm-welcome-section
+      {
+          height: 850px;
+      }
+}
+@media (max-width: 767px)
+{
+    .container-best-coffee
+    {
+        flex-direction: column;
+    }
+    .fright
+    {
+        flex-basis: 170px;
+    }
+    .tm-welcome-section
+      {
+          height: 820px;
+      }
+}
+@media (max-width: 670px)
+{
+    .tm-welcome-section
+    {
+        height: 780px;
+    }
+}
+@media (max-width: 500px)
+{
+    .tm-welcome-section
+    {
+        height: 740px;
+    }
+    .container-best-coffee
+    {
+        margin-top: -130px;
+    }
+}
+@media (max-width: 400px)
+{
+    .tm-welcome-section
+    {
+        height: 730px;
+    }
+}
+@media (max-width: 374px)
+{
+    .container-best-coffee
+    {
+        margin-top: -30px;
+    }
+}
+ 
 
 /* Harsh's Part ends */
 
