@@ -1,0 +1,139 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hwm-our-menu
+{
+    padding-top: 70px;
+
+}
+.hwm-om-l-line
+{
+    display: flex;
+    max-width: 989px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hwm-logo
+{
+    margin-right: 20px;
+}
+.hwm-om
+{
+    font-family: 'Damion',cursive;
+    font-weight: unset;
+}
+.hwm-l-om
+{
+    flex-shrink: 0;
+}
+.hwm-hr
+{
+      flex-basis: 780px;
+      padding-top: 50px;
+      padding-left: 100px;
+      /* height: 0px; */
+      /* border: 2px solid #c79c60;  */
+}
+hr{
+    color: #c79c60;
+}
+.hwm-brown-menu
+{
+    background-image: url(vertical-menu-bg.png);
+    flex-basis: 242px;
+    height: 391px;
+}
+.hwm-actual-menu
+{
+    display: flex;
+    padding-top: 30px;
+    max-width: 989px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.br-m-ul
+{
+    width: 242px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.liq{
+    padding-top: 7.2px;
+    padding-bottom: 7.2px;
+    color: #7c6a51;
+}
+li:hover
+{
+    color: #c79c60;
+}
+.golden-text
+{
+    color: #c79c60;
+}
+.hwm-d1-t1{
+    width: 365px;
+    text-align: justify;
+    margin-top: -20px;
+}
+.hwm-dabba1
+{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 176px;
+    margin-left: 40px;
+    background-color: white;
+    padding: 20px;
+}
+.hwm-d1-i2
+{
+  background-color:  #524c4c;
+  border-radius: 50%;
+  padding: 7.5px;
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+}
+.hwm-inner-b
+{
+    position:relative;
+    font-size: 40px;
+    height: 85px;
+    width: 85px;
+    border: 2px solid #aeaeae;
+    border-radius: 50%;
+    color: #aeaeae;
+    padding-left: 23px;
+    padding-top: 5px;
+}
+.hwm-dollar
+{
+    position: absolute;
+    top: 17px;
+    left: 14px;
+    font-size: 20px;
+    font-family: 'Open-sans', sans-serif;
+}
+.i1{
+    margin-right: 20px;
+}
+.hwm-dabba1:hover h3
+{
+    color: #c79c60
+}
+.hwm-dabba1:hover .hwm-inner-b
+{
+  border-color: #c79c60;
+  color: #c79c60;
+}

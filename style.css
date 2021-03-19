@@ -338,6 +338,7 @@ h2 {
         margin-left: 0px;
       }
     }
+
     @media (max-width: 1020px) {
       .tm-site-logo {
         padding-left: 10px;
