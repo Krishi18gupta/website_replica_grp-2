@@ -199,11 +199,11 @@ margin: 0px;
                       display: block;
                       cursor: pointer;
                       color: #c79c60;
-                      font-size: 50px;
+                      font-size: 30px;
                       position: fixed;
                       top: 32px;
                       right: 40px;
-                      background-color: rgba(180, 55, 55, 0.6);
+                      background-color: black;
                       padding: 10px 15px;
                       z-index: 10;
                     }
