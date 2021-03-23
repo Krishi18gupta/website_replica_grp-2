@@ -777,7 +777,7 @@ li:hover
   }
   @media (max-width: 991px) {
     .tm-welcome-section {
-      height: 900px;
+      height: 850px;
     }
     .welcome-lights {
       width: 240px;
@@ -837,11 +837,19 @@ li:hover
       height: 730px;
     }
   }
+  @media (max-width: 380px)
+  {
+    .tm-welcome-section
+    {
+      height: 860px;
+    }
+  }
   @media (max-width: 374px) {
     .container-best-coffee {
       margin-top: -30px;
     }
   }
+
 
   /* Harsh's Part ends */
 }
