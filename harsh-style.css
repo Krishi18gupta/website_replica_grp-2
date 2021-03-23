@@ -1,0 +1,17 @@
+.tm-section-header
+{
+    font-size: 30px;
+}
+.ch-heading
+{
+    font-size: 30px;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+}
+@media (max-width: 991px)
+{
+    .hwm-actual-menu
+    {
+        flex-direction: column;
+    }
+}
