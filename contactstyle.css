@@ -47,3 +47,20 @@ input[type="submit"]
     color: #c79c60;
     border: none;
 }
+.message
+{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+@media (max-width: 991px)
+{
+    .hwc-mm{
+      flex-direction: column;
+    }
+    .message{
+        flex-basis: 100%;
+    }
+    .map{
+        flex-basis: 100%;
+    }
+}
