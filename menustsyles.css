@@ -3,6 +3,10 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .hwm-our-menu
 {
     padding-top: 70px;
@@ -44,12 +48,15 @@ hr{
 .hwm-brown-menu
 {
     background-image: url(vertical-menu-bg.png);
+    background-repeat: no-repeat;
     flex-basis: 242px;
     height: 391px;
 }
 .hwm-actual-menu
 {
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     padding-top: 30px;
     max-width: 989px;
     padding-right: 20px;
@@ -136,4 +143,68 @@ li:hover
 {
   border-color: #c79c60;
   color: #c79c60;
+}
+.hwm-brown-menu
+{
+    margin-bottom: 20px;
+}
+@media (max-width: 991px)
+{
+    .hwm-brown-menu
+    {
+        margin-left: 20px;
+    }
+    .hwm-actual-menu
+    {
+        flex-direction: column;
+    }
+    .hwm-brown-menu
+    {
+        flex-basis: 240px;
+    }
+    .hwm-dabba1
+    {
+        margin-left: 0px;
+        max-width: 681px;
+    }
+    .hwm-image-menu
+    {
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .hwm-actual-menu
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 649px)
+{
+    .hwm-image-menu
+    {
+        width: 100%;
+    }
+    .hwm-dabba1
+    {
+        width: 100%;
+        margin-left: 0px;
+        flex-direction: column;
+        width: 100%;
+        height: 392.4px;
+    }
+    .i1
+    {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .hwm-d1-t1
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .hwm-d1-i2
+    {
+        margin-left: 0px;
+    }
+
 }

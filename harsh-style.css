@@ -8,4 +8,10 @@
     color: black;
     font-family:'Open Sans', sans-serif;
 }
+@media (max-width: 991px)
+{
+    .hwm-actual-menu
+    {
+        flex-direction: column;
+    }
 }
